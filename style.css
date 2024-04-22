@@ -487,7 +487,7 @@ footer .text span a:hover{
 
 .img-box{
   width: 100px;
-  height: 400px;
+  height: 300px;
   margin: 10px;
   border-radius: 50px;
   background: url(images/image1.png);
@@ -497,19 +497,19 @@ footer .text span a:hover{
   transition: width 0.5s;
 }
 
-.gallery:nth child(2){
+.img-box:nth-child(2){
   background: url(images/image2.png);
   background-size: cover;
   background-position: center;
 }
 
-.img-box:nth child(3){
+.img-box:nth-child(3){
   background: url(images/image3.png);
   background-size: cover;
   background-position: center;
 }
 
-.img-box:nth child(4){
+.img-box:nth-child(4){
   background: url(images/image4.png);
   background-size: cover;
   background-position: center;
@@ -525,11 +525,15 @@ footer .text span a:hover{
 }
 
 .img-box:hover{
-  width: 400px;
+  width: 500px;
   cursor: pointer;
 }
 
 .img-box:hover h3{
   opacity: 1;
   bottom: 25px;
+}
+
+.container{
+  background-color: #F0F8FF
 }
