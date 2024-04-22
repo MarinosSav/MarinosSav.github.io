@@ -291,8 +291,8 @@ section .title span::after{
   width: 45%;
 }
 .about .left img{
-  height: 400px;
-  width: auto;
+  height: auto;
+  width: 500px;
   object-fit: contain;
   border-radius: 12px;
 }
@@ -450,8 +450,8 @@ footer .text span a:hover{
 }
 @media (max-width: 1000px) {
   .about .left img{
-    height: 350px;
-    width: 350px;
+    height: auto;
+    width: 400px;
   }
 }
 
