@@ -532,3 +532,9 @@ footer .text span a:hover{
     color: #4070f4;
   }
 }
+
+.gallery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
