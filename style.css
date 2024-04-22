@@ -525,7 +525,7 @@ footer .text span a:hover{
 }
 
 .img-box:hover{
-  width: 500px;
+  width: 100%;
   cursor: pointer;
 }
 
