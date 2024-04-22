@@ -429,7 +429,7 @@ footer .text span a:hover{
     width: 85%;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .about .about-details{
     justify-content: center;
     flex-direction: column;
