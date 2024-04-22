@@ -569,6 +569,18 @@ footer .text span a:hover{
   background-position: center;
 }
 
+.img-box:nth-child(5){
+  background: url(images/image5.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box:nth-child(6){
+  background: url(images/image6.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .img-box h3{
   color: #fff;
   position: absolute;
@@ -579,7 +591,7 @@ footer .text span a:hover{
 }
 
 .img-box:hover{
-  width: 400px;
+  width: 350px;
   cursor: pointer;
 }
 
