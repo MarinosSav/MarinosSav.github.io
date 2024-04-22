@@ -544,7 +544,7 @@ footer .text span a:hover{
   height: 500px;
   margin: 10px;
   border-radius: 50px;
-  background: url(images/image1.png);
+  background: url(images/image1.jpg);
   background-size: cover;
   background-position: center;
   position:relative;
@@ -552,19 +552,19 @@ footer .text span a:hover{
 }
 
 .img-box:nth child(2){
-  background: url(images/image2.png);
+  background: url(images/image2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .img-box:nth child(3){
-  background: url(images/image2.png);
+  background: url(images/image3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .img-box:nth child(4){
-  background: url(images/image2.png);
+  background: url(images/image4.jpg);
   background-size: cover;
   background-position: center;
 }
