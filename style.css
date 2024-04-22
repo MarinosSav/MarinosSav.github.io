@@ -114,7 +114,7 @@ nav.sticky .menu-btn{
   /* background: url("https://github.com/MarinosSav/MarinosSav.github.io/blob/main/images/bg.png") no-repeat; */
   background: url("images/bg.png") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
