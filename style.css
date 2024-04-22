@@ -429,7 +429,7 @@ footer .text span a:hover{
     width: 85%;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1700px) {
   .about .about-details{
     justify-content: center;
     flex-direction: column;
@@ -446,12 +446,6 @@ footer .text span a:hover{
   .services .boxes .box{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
-  }
-}
-@media (max-width: 1000px) {
-  .about .left img{
-    height: auto;
-    width: 400px;
   }
 }
 
