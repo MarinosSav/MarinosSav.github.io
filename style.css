@@ -292,7 +292,7 @@ section .title span::after{
 }
 .about .left img{
   height: auto;
-  max-width: 450px;
+  width: 400px;
   object-fit: contain;
   border-radius: 12px;
 }
