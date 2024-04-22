@@ -579,15 +579,11 @@ footer .text span a:hover{
 }
 
 .img-box:hover{
-  width: 100%;
+  width: 400px;
   cursor: pointer;
 }
 
 .img-box:hover h3{
   opacity: 1;
   bottom: 25px;
-}
-
-.container{
-  background-color: #F0F8FF
 }
