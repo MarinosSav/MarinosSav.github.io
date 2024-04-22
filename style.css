@@ -448,7 +448,7 @@ footer .text span a:hover{
     width: calc(100% / 2 - 20px);
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .about .left img{
     height: 350px;
     width: 350px;
