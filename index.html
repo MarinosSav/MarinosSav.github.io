@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 
-
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
     <title>Marinos' Portfolio Website </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
 
@@ -25,8 +21,8 @@
       <ul class="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#numbers">Numbers</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#numbers">Numbers</a></li>
           <li><a href="#bonnie">Bonnie</a></li>
           <li><a href="#contact">Contact</a></li>
           <div class="cancel-btn">
@@ -49,12 +45,17 @@
      <div class="text">
        <div class="text-one">Hello,</div>
        <div class="text-two">I'm Marinos</div>
-       <div class="text-three">Data and Tech Enthusiast, Experienced Problem Solver</div>
+       <div class="text-three">Data Enthusiast <br> Experienced Problem Solver</div>
      </div>
      <div class="button">
        <a class="fcc-btn"href="#projects">My Projects</a>
      </div>
    </div>
+   <div class="test">
+   <div class="right">
+     <img src="images/base.JPEG" alt="">
+   </div>
+  </div>
  </section>
 
 </div>
@@ -79,24 +80,37 @@
   </div>
 </section>
 
-
-<!-- My Skill Section Start -->
-<!-- Section Tag and Other Div will same where we need to put same CSS -->
-<section class="skills" id="projects">
- <div class="content">
-   <div class="title"><span>My projects</span></div>
-
-   <div class="container">
-     <div class="gallery">
-       <div class="img-box"><h3>Developed and successfully implemented new guidelines and procedures which are now standard practise in 43 national member organisations</h3></div>
-       <div class="img-box"><h3>Directly collaborated with people from 121+ nationalities, participating in 21+ conferences in 16+ different countries</h3></div>
-       <div class="img-box"><h3>Trained and personally mentored 38 partnership managers</h3></div>
-       <div class="img-box"><h3>Lead the operations of 5 different teams of between 3-18 people; was a member in 4 more</h3></div>
-     </div>
-   </div>
- </div>
-</section>
-
+<section class="projects_sect" id="projects">
+  <div class="content">
+    <div class="title"><span>My Latest Projects</span></div>
+    <div class="projects">
+        <div class="project">
+            <a href="https://github.com/MarinosSav/Modelling_Spatiotemporal_Dynamics_Covert_Attention/tree/main">
+            <img src="images/model.JPG" alt="Project Image"></a>
+            <h3>Modelling the Spatiotemporal Dynamics of Covert Attention (Python)</h3>
+            <date>Jan 14, 2024</date>
+            <p>A project aimed at analysing experimental human eye data to better understand the spatiotemporal dynamics of covert attention. Several models were trained on experimental data to provide predictive models which would aid interpretation and understanding. </p>
+        </div>
+        <div class="project">
+            <a href="https://github.com/MarinosSav/Twitter_Sentiment_Analysis_UkrSyr">
+            <img src="images/ukr.jpg" alt="Project Image"></a>
+            <h3>Exploring Sentiment Towards Ukrainian and Syrian Migrants in Europe (Python)</h3>
+            <date>Oct 20, 2022</date>
+            <p>A sentiment analysis project using Twitter tweet data aimed at analysing the sentiment towards Ukrainian and Syrian refugees.</p>
+        </div>
+        <div class="project">
+            <a href="https://github.com/MarinosSav/Pepper_Gaze_Direction_Estimation">
+            <img src="images/gaze.jpg" alt="Project Image"></a>
+            <h3>Gaze Direction Estimation using a Pepper Robot's Low-fidelity Camera (Python)</h3>
+            <date>Jul 24, 2021</date>
+            <p>A computer vision project for detecting a persons gaze direction using the built-in Pepper robot camera. Had to employ multiple computer vision solutions to account for low resolution and multiple other challenges such as lighting and movement.</p>
+        </div>
+      </div>
+      <div class="button">
+        <a class="fcc-btn" href="https://github.com/MarinosSav?tab=repositories">See more</a>
+      </div>
+    </div>
+  </section>
 
 <!-- My Skill Section Start -->
 <!-- Section Tag and Other Div will same where we need to put same CSS -->
@@ -117,33 +131,32 @@
  </div>
 </section>
 
+<section class="bonnie" id="bonnie">
+  <div class="content">
+    <div class="title"><span>Bonnie</span></div>
+  <div class="bonnie-details">
+    <div class="left">
+      <div class="topic">The goodest of girls</div>
+    </div>
+    <div class="right">
+      <img src="images/bonnie.JPG" alt="">
+    </div>
+  </div>
+  </div>
+</section>
+
 <!-- Contact Me section Start -->
 <section class="contact" id="contact">
   <div class="content">
     <div class="title"><span>Contact Me</span></div>
     <div class="text">
       <div class="topic">Would you like to have a chat?</div>
-      <p>Why wait, lets connect. Personal connection and community improve efficiency, engagement, and well-being </p>
+      <p>Why wait, lets connect. Personal connection and community improve efficiency, engagement, and well-being. </p>
       <div class="button">
         <!-- <button>Let's Chat</button> -->
         <a class="fcc-btn" href="https://www.linkedin.com/in/marinos-savva-2649a21a9/">Let's Chat</a>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="about" id="bonnie">
-  <div class="content">
-    <div class="title"><span>About Me</span></div>
-  <div class="about-details">
-    <div class="right">
-      <img src="images/bonnie.JPG" alt="">
-    </div>
-    <div class="left">
-      <div class="topic">Bonnie</div>
-      <p>The goodest girl.</p>
-    </div>
-  </div>
   </div>
 </section>
 

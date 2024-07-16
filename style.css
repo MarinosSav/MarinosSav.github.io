@@ -40,7 +40,7 @@ nav.sticky{
 nav .navbar{
   width: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: auto;
 }
@@ -117,15 +117,46 @@ nav.sticky .menu-btn{
   background-position: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
 }
+.home img{
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.home .right {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+@media (min-width: 1400px) {
+  .home .right{
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.test{
+  padding-right: 15%;
+}
+
 .home .home-content{
-  width: 90%;
+  width: 80%;
   height: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .home .text-one{
   font-size: 25px;
   color: #0E2431;
@@ -248,15 +279,16 @@ nav.sticky .menu-btn{
  I'm Selecting Directly 'Section Tag' and 'Class'  */
 section{
   padding-top: 40px;
+  background: #F0F8FF;
 }
 section .content{
-  width: 80%;
+  width: 70%;
   margin: 40px auto;
   font-family: 'Poppins', sans-serif;
 }
 .about .about-details{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 section .title{
@@ -288,16 +320,17 @@ section .title span::after{
   transform: translateX(-50%);
 }
 .about .about-details .left{
-  width: 45%;
+  width: 50%;
 }
 .about .left img{
   height: auto;
-  width: 450px;
+  width: 100%;
   object-fit: contain;
   border-radius: 12px;
 }
 .about-details .right{
-  width: 55%;
+  width: 45%;
+  padding-left: 30px;
 }
 section  .topic{
   color: #0E2431;
@@ -329,6 +362,37 @@ section .button button:hover{
   background-color: #fff;
   color: #4070f4;
 }
+
+
+/*Bonnie*/
+.bonnie{
+  background-color: white;
+}
+.bonnie .bonnie-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bonnie-details .right img{
+  height: 500px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+.bonnie-details .left{
+  width: 45%;
+  align-items: center;
+  padding: 10px 100px 10px 150px;
+}
+.bonnie-details .left p{
+  text-align: left;
+  color: #0E2431;
+}
+
+
+
+
+
 
 /* My Services CSS */
 .services .boxes{
@@ -437,7 +501,7 @@ footer .text span a:hover{
   .about .about-details .left{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 50%;
   }
   .about-details .right{
     width: 90%;
@@ -593,3 +657,40 @@ footer .text span a:hover{
   opacity: 1;
   bottom: 25px;
 }
+
+
+
+.projects_sect{
+  background: white;
+}
+ .projects {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+ .project {
+     background: white;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     width: 30%;
+     margin-bottom: 20px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ }
+ .project img {
+     width: 100%;
+     border-bottom: 1px solid #ddd;
+ }
+ .project h3, .project p, .project date {
+     padding: 15px;
+ }
+ .project h3 {
+     margin-top: 0;
+ }
+ .project date {
+     display: block;
+     font-size: 0.8em;
+     color: #777;
+ }
+ .projects_sect .button{
+   text-align: center;
+ }
